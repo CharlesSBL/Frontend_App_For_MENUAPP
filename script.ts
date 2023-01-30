@@ -62,7 +62,7 @@ function addElements(data: any) {
 }
 // getting arr of dishes api
 function test(typeOfFood: any): void {
-  fetch(`http://localhost:3200//${typeOfFood}`)
+  fetch(`https://food-backend-h662.onrender.com/${typeOfFood}`)
     .then((response) => response.json())
     .then((data) => {
       // clear list

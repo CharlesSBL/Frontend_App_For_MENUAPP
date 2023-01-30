@@ -87,7 +87,7 @@ function addElements(data) {
 }
 // getting arr of dishes api
 function test(typeOfFood) {
-  fetch("http://localhost:3200/".concat(typeOfFood))
+  fetch("https://food-backend-h662.onrender.com/".concat(typeOfFood))
     .then(function (response) {
       return response.json();
     })
